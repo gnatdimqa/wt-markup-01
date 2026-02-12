@@ -8,19 +8,25 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
-
 
 /* ============================= */
 /*           CONTAINER           */
 /* ============================= */
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
 }
+
 
 
 /* ============================= */
@@ -137,19 +143,23 @@ nav a {
 }
 
 /* Gallery row */
-.services-gallery {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
+.services-gallery,
+.team-cards,
+.features .container {
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 /* Photos EXACT from Figma */
 .services-gallery img {
-  width: 370px;
-  height: 294px;
+  width: 100%;
+  max-width: 370px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
+
 
 
 /* ============================= */
@@ -174,10 +184,13 @@ nav a {
 }
 
 /* Single card */
-.team-member {
-  width: 270px;
-  padding: 20px;
+.team-member img {
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  object-fit: cover;
 }
+
 
 /* Photos EXACT from Figma */
 .team-member img {
