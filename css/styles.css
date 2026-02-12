@@ -1,0 +1,223 @@
+/* ============================= */
+/*         GLOBAL RESET          */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+/* ============================= */
+/*           CONTAINER           */
+/* ============================= */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* ============================= */
+/*             HEADER            */
+/* ============================= */
+
+header {
+  height: 80px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* Logo */
+.logo h2 {
+  font-size: 22px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Contacts */
+.contacts {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+
+/* ============================= */
+/*            HERO BLOCK         */
+/* ============================= */
+
+.hero {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .container {
+  width: 700px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* ============================= */
+/*          FEATURES BLOCK       */
+/* ============================= */
+
+.features {
+  padding: 80px 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature-item {
+  width: 250px;
+}
+
+.feature-item h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* ============================= */
+/*          SERVICES BLOCK       */
+/* ============================= */
+
+.services {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+/* Gallery row */
+.services-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Photos EXACT from Figma */
+.services-gallery img {
+  width: 370px;
+  height: 294px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/* ============================= */
+/*            TEAM BLOCK         */
+/* ============================= */
+
+.team {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+/* Cards row */
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Single card */
+.team-member {
+  width: 270px;
+  padding: 20px;
+}
+
+/* Photos EXACT from Figma */
+.team-member img {
+  width: 270px;
+  height: 260px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Name */
+.team-member h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Profession */
+.team-member p {
+  font-size: 14px;
+}
+
+
+/* ============================= */
+/*             FOOTER            */
+/* ============================= */
+
+footer {
+  height: 250px;
+  padding-top: 50px;
+}
+
+footer h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer address p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
