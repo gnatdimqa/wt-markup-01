@@ -1,165 +1,149 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevStudio</title>
+    <meta charset="UTF-8">
+    <title>DevStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <header>
-    <div class="container">
+    <!-- Верхня лінія (Header navigation) -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                <span class="logo-blue">Dev</span>Studio
+                </a>
+            </div>
 
-      <!-- Logo -->
-      <div class="logo">
-        <h2>DevStudio</h2>
-      </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Портфоліо</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
 
-      <!-- Navigation -->
-      <nav>
-        <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
-        </ul>
-      </nav>
-
-      <!-- Contacts -->
-      <div class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380680001100">+38 068 000 11 00</a>
-      </div>
-
-    </div>
-  </header>
-
-
-  <!-- ===== HERO SECTION ===== -->
-  <main>
-
-    <section class="hero">
-      <div class="container">
-        <h1>
-          МИ СТВОРЮЄМО ЛЕГКІ РІШЕННЯ <br>
-          СКЛАДНИХ ЗАВДАНЬ ДЛЯ ВАШОГО БІЗНЕСА
-        </h1>
-
-        <button>Замовити послугу</button>
-      </div>
-    </section>
-
-
-    <!-- ===== FEATURES SECTION ===== -->
-    <section class="features">
-      <div class="container">
-
-        <div class="feature-item">
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p>
-            Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.
-          </p>
+            <div class="contacts">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="tel:+380680001100">+38 068 000 11 00</a>
+            </div>
         </div>
+    </header>
 
-        <div class="feature-item">
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p>
-            Lorem Ipsum є стандартною "рибою" для текстів на латиниці.
-          </p>
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="container">
+                <h1>
+                    МИ СТВОРЮЄМО ЛЕГКІ РІШЕННЯ <br>
+                    СКЛАДНИХ ЗАВДАНЬ ДЛЯ ВАШОГО БІЗНЕСА
+                </h1>
+                <button>Замовити послугу</button>
+            </div>
+        </section>
+
+        <!-- Переваги -->
+        <section class="advantages">
+            <div class="container">
+
+                <div class="advantage-item">
+                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p>Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</p>
+                </div>
+
+                <div class="advantage-item">
+                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <p>Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</p>
+                </div>
+
+                <div class="advantage-item">
+                    <h3>ПЛАНУВАННЯ</h3>
+                    <p>Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</p>
+                </div>
+
+                <div class="advantage-item">
+                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p>Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Наші роботи -->
+        <section class="works">
+            <div class="container">
+                <h2>Роботи на яких спеціалізуємось</h2>
+
+                <div class="works-list">
+                    <div class="work-item">
+                        <img src="images/work1.jpg" alt="Робота 1">
+                    </div>
+
+                    <div class="work-item">
+                        <img src="images/work2.jpg" alt="Робота 2">
+                    </div>
+
+                    <div class="work-item">
+                        <img src="images/work3.jpg" alt="Робота 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Наша команда -->
+        <section class="team">
+            <div class="container">
+                <h2>Наша команда</h2>
+
+                <div class="team-list">
+
+                    <div class="team-member">
+                        <img src="images/team1.png">
+                        <h3>Betty Foriz</h3>
+                        <p>Product Designer</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="images/team2.png">
+                        <h3>Folke Boeke</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="images/team3.png">
+                        <h3>Mito Dito</h3>
+                        <p>Marketing</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="images/team4.png">
+                        <h3>Lóa Spetnaz</h3>
+                        <p>UI Designer</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Підвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <a href="#">DevStudio</a>
+            </div>
+
+            <address>
+                м. Харків, вул. Ярослава Мудрого, 18 <br>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                <a href="tel:+380680001100">+38 068 000 11 00</a>
+            </address>
         </div>
-
-        <div class="feature-item">
-          <h3>ПЛАНУВАННЯ</h3>
-          <p>
-            Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.
-          </p>
-        </div>
-
-        <div class="feature-item">
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p>
-            Lorem Ipsum є стандартною "рибою" для текстів на латиниці.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- ===== SERVICES SECTION ===== -->
-    <section class="services">
-      <div class="container">
-
-        <h2>Роботи на яких спеціалізуємось</h2>
-
-        <div class="services-gallery">
-          <img src="./images/1.jpg" alt="Код на екрані">
-          <img src="./images/2.jpg" alt="Командна робота">
-          <img src="./images/3.jpg" alt="Робота з документами">
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- ===== TEAM SECTION ===== -->
-    <section class="team">
-      <div class="container">
-
-        <h2>Наша команда</h2>
-
-        <div class="team-cards">
-
-          <article class="team-member">
-            <img src="./images/4.png" alt="Betty Foriz">
-            <h3>Betty Foriz</h3>
-            <p>Product Designer</p>
-          </article>
-
-          <article class="team-member">
-            <img src="./images/5.png" alt="Folke Booke">
-            <h3>Folke Booke</h3>
-            <p>Frontend Developer</p>
-          </article>
-
-          <article class="team-member">
-            <img src="./images/6.png" alt="Mito Dito">
-            <h3>Mito Dito</h3>
-            <p>Marketing</p>
-          </article>
-
-          <article class="team-member">
-            <img src="./images/7.png" alt="Lóa Spetnaz">
-            <h3>Lóa Spetnaz</h3>
-            <p>UI Designer</p>
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <div class="container">
-
-      <h2>DevStudio</h2>
-
-      <address>
-        <p>м. Харків, вул. Ярослава Мудрого, 18</p>
-        <p>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </p>
-        <p>
-          <a href="tel:+380680001100">+38 068 000 11 00</a>
-        </p>
-      </address>
-
-    </div>
-  </footer>
+    </footer>
 
 </body>
 </html>
